@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <head></head>
+    <body>
+        <div id="app">
+            <!-- arr iter -->
+            <div v-for="(v, i) of arr">v : {{ v }}, i : {{i}} </div>
+            <!-- obj iter -->
+            <div v-for="(v, k, i) in obj">v : {{ v.value }}, k : {{k}}, i : {{i}} </div>
+        </div>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
