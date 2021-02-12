@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="root">
+            <!-- not working if using camel style name !? -->
+            <div :[attrname]="attrval"></div>
+            <button @[eventname]="info">test</button>
+        </div>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

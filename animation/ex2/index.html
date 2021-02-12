@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="content"
+                @mousemove="coordX"
+                :style="`background-color: hsl(${x}, 20%, 40%)`"
+            >
+                <h1>Move Mouse</h1>
+            </div>
+        </div>
+        <script src="https://unpkg.com/vue@next"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

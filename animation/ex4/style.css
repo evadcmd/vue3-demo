@@ -1,0 +1,23 @@
+#app > span {
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.nums-enter-active,
+.nums-leave-active {
+    transition: all 1s linear;
+    transform: translateY(0);
+}
+
+.nums-enter-from,
+.nums-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.nums-move {
+    transition: all 0.8s ease;
+}
+
+
