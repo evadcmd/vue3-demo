@@ -9,6 +9,7 @@ const MyContainer = {
     components: {
         MyComponent
     },
+    // 「MyComponent」 in JS -> 「my-component」 in HTML
     template: `
         <my-component v-for="i in 10" class="from-parent from-parent2"></my-component>
     `
